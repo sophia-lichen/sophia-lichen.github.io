@@ -1,0 +1,13 @@
+#store {
+  text-align: center;
+  background-color: #ffe600;
+  color: #333333;
+  padding: 70px;
+  font-size: 25px;
+  font-family: 'PingFang TC';
+  font-weight: 900;
+}
+
+#gift {
+  width: 600px;
+}

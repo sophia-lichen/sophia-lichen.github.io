@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Vincent van Gogh</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" type="image/png" href="./icon/favicon.ico" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/audio.css">
+  <link rel="stylesheet" href="css/maintext.css">
+  <link rel="stylesheet" href="css/artwork.css">
+  <link rel="stylesheet" href="css/visit.css">
+  <link rel="stylesheet" href="css/store.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href="#vangogh">Van Gogh</a>
+        </li>
+        <li>
+          <a href="#artwork">Artwork</a>
+        </li>
+        <li>
+          <a href="#visit">Visit</a>
+        </li>
+        <li>
+          <a href="#store">Store</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- The video -->
+  <video autoplay muted loop id="vangogh">
+    <source src="./assets/banner.mp4" type="video/mp4">
+  </video>
+
+  <!-- Some overlay text to describe the video -->
+  <div class="content">
+    <h1 class="title">Vincent van Gogh</h1>
+    <p class="title">1853–1890</p>
+    <!-- Use a button to pause/play the video with JavaScript -->
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+  </div>
+
+  <audio controls id="audio">
+    <source src="./assets/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="maintext">
+    <h1>Vincent van Gogh</h1>
+    <p>Vincent van Gogh is a Dutch Post-Impressionist artiset who is one of the most famous figures in the history of
+      Western
+      art. With a career that ran a little over a decade he created about 2,100 artworks.
+    </p>
+  </div>
+
+  <div id="artwork">
+    <img id="bed" src="./assets/bed.jpg" alt="The bed" class="hover-shadow">
+    <img id="almond" src="./assets/almond.jpg" alt="Almond blossom" class="hover-shadow">
+    <img id="wheatfield" src="./assets/wheatfield.jpg" alt="Wheatfield with crows" class="hover-shadow">
+    <img id="portrait" src="./assets/portrait.jpg" alt="Self-portrait" class="hover-shadow">
+    <img id="sunflowers" src="./assets/sunflowers.jpg" alt="Sunflowers" class="hover-shadow">
+  </div>
+
+  <div id="visit">
+    <p>Step into Van Gogh's world. Explore the world’s largest collection of works by Vincent van Gogh at the Van Gogh
+      Museum
+      in Amsterdam.</p>
+    <video id="video" width="600" height="480" controls>
+      <source src="./assets/visit.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+  <div id="store">
+    <h1>Van Gogh presents</h1>
+    <img id="gift" src="./assets/gift.jpg" alt="Art store">
+  </div>
+
+
+  <video autoplay muted loop id="animation">
+    <source src="./assets/3d.mov" type="video/mp4">
+  </video>
+
+  <footer>&copy; 2018 Sophia LI</footer>
+
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/banner.js"></script>
+
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>

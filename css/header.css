@@ -1,0 +1,27 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+#navbar ul {
+  float: right;
+}
+
+#navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#navbar a {
+  font-size: 16px;
+  font-family: 'Arial';
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #808080;
+}

@@ -1,0 +1,46 @@
+/* Style the video: 100% width and height to cover the entire window */
+
+#vangogh {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+
+.content {
+  position: relative;
+  bottom: 250px;
+}
+
+.title {
+  margin-left: 60px;
+  color: #FAFCFC;
+  font-family: 'Helvetica Neue';
+}
+
+/* Style the button used to pause/play the video */
+
+#myBtn {
+  position: relative;
+  top: 10px;
+  left: 60px;
+  width: 200px;
+  font-size: 18px;
+  font-family: 'Arial';
+  padding: 10px;
+  border-width: 1px;
+  border-color: #FAFCFC;
+  border-style: solid;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0);
+  color: #FAFCFC;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #FAFCFC;
+  color: black;
+}
